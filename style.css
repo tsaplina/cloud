@@ -1,0 +1,63 @@
+/* =============================================================================
+  RESETS
+============================================================================= */
+html,
+body,
+div,
+h1,
+p,
+a,
+video {
+  margin: 0;
+  padding: 0;
+}
+
+/* =============================================================================
+  HTML, BODY
+============================================================================= */
+html,
+body {
+  height: 100%;
+}
+
+body {
+    background:url("https://pp.vk.me/c637228/v637228025/21b0a/RLiu0DKsvYU.jpg") 50% 50% repeat;
+	
+	background-size: cover;
+    height: 100%;
+    margin: 0;
+    width: 100%;    
+  font-size: 16px;
+  font-family: "Oxygen", sans-serif;
+  line-height: 1.5;
+}
+
+/* =============================================================================
+  CONTENT
+============================================================================= */
+.content {
+  position: relative;
+  top: 1%;
+  z-index: 2;
+  margin: 0 auto;
+  max-width: 720px;
+  text-align: center;
+}
+
+.content__heading {
+  margin-bottom: 24px;
+  color: #505050;
+  font-size: 44px;
+}
+
+.content__teaser {
+  margin-bottom: 24px;
+  color: #121212;
+  font-size: 22px;
+}
+
+.frame {
+    margin: 5px;
+    padding: 12px;
+    border: solid 4px #9966cc;
+}

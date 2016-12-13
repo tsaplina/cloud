@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oxygen:400,300,700">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <form class="content" name="form" method="POST" action="script.php">
+        <h1 class="content__heading">Опрос пациентов</h1>
+        
+        <div class="frame">
+        <p class="content__teaser">Ваше имя</p>
+        <input type="text" name="name">
+        
+        <p class="content__teaser">Ваша фамилия</p>
+        <input type="text" name="s_name">
+        </div>
+        
+        <div class="frame">
+        <p class="content__teaser">Как часто вы посещаете мед. учреждения?</p>
+        <input type="radio" name="h_much" value="hm1">Да. В целях профилактики.<br>
+        <input type="radio" name="h_much" value="hm2">Да. При острой необходимости.<br>
+        <input type="radio" name="h_much" value="hm3">Редко.<br>
+        <input type="radio" name="h_much" value="hm4">Не доверяю врачам.<br>
+        </div>
+        
+        <div class="frame">
+        <p class="content__teaser">Как вы относитесь к внедрению систем ведения электронных карт пациента?</p>
+        <input type="radio" name="e_card" value="hm1">Положительно. Я бы пользовался подобным.<br>
+        <input type="radio" name="e_card" value="hm2">Положительно. Предпочел бы использовать старую систему.<br>
+        <input type="radio" name="e_card" value="hm3">Отрицательно. Не понимаю о чем речь.<br>
+        <input type="radio" name="e_card" value="hm4">Без разницы.<br>
+        </div>
+        
+        <div class="frame">
+        <p class="content__teaser">Выполняете ли медицинские стандарты (требования врача)?</p>
+        <input type="radio" name="std" value="hm1">Да. От и до.<br>
+        <input type="radio" name="std" value="hm2">Да. Стараюсь.<br>
+        <input type="radio" name="std" value="hm3">Нет, если уже чувствую себя хорошо.<br>
+        <input type="radio" name="std" value="hm4">Нет. Не доверяю врачам.<br>
+        </div>
+        
+        <div class="frame">
+        <p class="content__teaser">Хотели бы вы получать оповещения о профилактиках, прививках, осмотрах и т.п. на свой телефон?</p>
+        <input type="radio" name="mf" value="hm1">Да. Любые уведомления.<br>
+        <input type="radio" name="mf" value="hm2">Да. Но только выбранные мною лично.<br>
+        <input type="radio" name="mf" value="hm3">Да. Только в период эпидемии.<br>
+        <input type="radio" name="mf" value="hm4">Нет.<br>
+        </div>
+        
+        <div class="frame">
+        <p class="content__teaser">Что вы думаете о современной медицине?</p>
+        <input type="radio" name="mf" value="hm1">В целом, обслуживание на высоком уровне.<br>
+        <input type="radio" name="mf" value="hm2">Все зависит от конкретного учреждения.<br>
+        <input type="radio" name="mf" value="hm3">Затрудняюсь ответить.<br>
+        <input type="radio" name="mf" value="hm4">Лечусь травами.<br>
+        </div>
+        
+        <div class="frame">
+        <p class="content__teaser">Что бы вы изменили в современной системе здравоохранения?</p>
+        <input type="text" name="change">
+        </div>
+        
+        <br><input type="submit" name="btn" value="ОТПРАВИТЬ ОТВЕТ">
+    </form>
+  </body>
+</html>
